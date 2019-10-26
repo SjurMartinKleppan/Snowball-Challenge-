@@ -3,26 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Sjur M. Kleppan, Magnus Kråbøl, Stian Kringlåk, Nikolai Kopperudmoen">
-    <link rel="stylesheet" href="./css/mystyle.css">
+    <link rel="stylesheet" href="../css/mystyle.css">
     <title>NSMS WebDev | Services</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="topp-tekst">
+        <div id="topp-tekst">
           <h1>NSMS WebDev</h1>
         </div>
-
-        <div class="navigasjon">
-          <a href="index.html">Home</a>
-          <a href="services.html">Services</a>
-          <a href="aboutus.html">About us</a>
-        </div>
-
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
-    <div class="newsletter">
+    <div id="newsletter">
       <div class="content">
         <h4>Contact us to!</h4>
         <form type="email" placeholder="Enter Email...">
@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <div class="boxes">
+    <div id="boxes">
       <div class="container">
         <div class="box">
           <img src="../IMAGES/logo_html.png" alt="html">
@@ -53,25 +53,26 @@
       </div>
     </div>
 
-    <div class="services">
+  <ul>
+    <div id="services">
       <div class="main">
-        <div class="opt1">
+        <li class="opt1">
           <h3>Website for your company.</h3>
           <p>Pricing: 1000 - 3000$</p>
           <p>Fusce odio tellus, volutpat varius massa sit amet, tincidunt volutpat ante. Curabitur feugiat dictum justo, at consectetur est.</p>
-        </div>
-        <div class="opt2">
+        </li>
+        <li class="opt2">
           <h3>Maintenance</h3>
           <p>Pricing: 500$ per month</p>
           <p>Fusce odio tellus, volutpat varius massa sit amet, tincidunt volutpat ante. Curabitur feugiat dictum justo, at consectetur est.</p>
-        </div>
-        <div class="opt3">
+        </li>
+        <li class="opt3">
           <h3>Webhosting</h3>
           <p>Pricing: 25$ per month</p>
           <p>Fusce odio tellus, volutpat varius massa sit amet, tincidunt volutpat ante. Curabitur feugiat dictum justo, at consectetur est.</</p>
-        </div>
+        </li>
       </div>
-    </div>
+  </ul>
 
     <footer>
       <p>NSMS WebDev, Copyright &copy; 2019</p>

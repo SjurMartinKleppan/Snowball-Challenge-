@@ -3,43 +3,43 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Sjur M. Kleppan, Magnus Kråbøl, Stian Kringlåk, Nikolai Kopperudmoen">
-    <link rel="stylesheet" href="./css/mystyle.css">
+    <link rel="stylesheet" href="../css/mystyle.css">
     <title>NSMS WebDev | Home</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="topp-tekst">
+        <div id="topp-tekst">
           <h1>NSMS WebDev</h1>
         </div>
-
-        <div class="navigasjon">
-          <a href="index.html">Home</a>
-          <a href="services.html">Services</a>
-          <a href="aboutus.html">About us</a>
-        </div>
-
+      <nav>
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
-    <div class="showcase">
+    <div id="showcase">
       <div class="container">
-        <img src="../IMAGES/showcase.jpg" alt="">
         <h1>Affordable and professional Web Design</h1>
-        <p>NSMS WebDev, designs, develop and maintain websites for your company.</p>
+        <p>NSMS WebDev designs, develop and maintain websites for your company.</p>
       </div>
     </div>
 
-    <div class="newsletter">
+    <div id="newsletter">
       <div class="content">
         <h4>Contact us to!</h4>
-        <form type="email" placeholder="Enter Email...">
+        <form>
+          <input type="email" placeholder="Enter Email...">
           <button type="submit" name="button_1">Subscribe</button>
         </form>
       </div>
     </div>
 
-    <div class="boxes">
+    <div id="boxes">
       <div class="container">
         <div class="box">
           <img src="../IMAGES/logo_html.png" alt="html">
